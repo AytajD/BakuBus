@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BakuBusTest</string>
+    <string name="title_activity_maps">BakuBusTest</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="route_number">1</string>
+    <string name="route">Neftciler - Bakixanov</string>
+    <string name="bus_num">2</string>
+    <string name="title">Baku Bus Test</string>
+
+</resources>

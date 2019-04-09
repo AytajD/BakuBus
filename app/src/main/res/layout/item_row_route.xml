@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/linear_layout"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@android:color/black"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/text_route_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:ellipsize="end"
+        android:padding="15dp"
+        android:text="@string/route_number"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_route"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="95"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/route"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+
+</LinearLayout>
